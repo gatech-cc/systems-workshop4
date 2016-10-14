@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": { 
+      "value": "mapreduce" 
+    },
+    "adminPassword": {
+      "value": "mapReduce1234"
+    },
+    "dnsNamePrefix": {
+      "value": "mr4"
+    }, 
+    "vmNamePrefix": {
+      "value": "mr4" 
+    },
+    "nicNamePrefix": {
+      "value": "mrnic4"
+    },
+    "publicIPAddressNamePrefix": {
+      "value": "mrip4"
+    }, 
+    "storageAccountName": {
+      "value": "mstuiop"
+    }
+  }
+}
